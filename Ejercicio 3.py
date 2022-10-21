@@ -2,10 +2,8 @@
 # y muestre por pantalla si es par o impar.
 
 entero = int(input("Escriba un numero entero:\n"))
-
-
-
-if entero == entero +1:
+resto = entero % 2
+if resto == 0:
     print("El numero es par")
 else:
     print("El numero es impar")
