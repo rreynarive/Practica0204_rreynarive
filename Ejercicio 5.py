@@ -5,3 +5,19 @@
 # la N y Slytheryn por el resto. Escribir un programa que
 # pregunte al usuario su nombre y sexo, y muestre por
 # pantalla el grupo que le corresponde.
+
+nombre = input("¿Cual es su nombre?\n")
+sexo = input("Introduzca su sexo (M o H):\n")
+
+if sexo == "M":
+    if nombre[0].upper() < "M":
+        print("Eres de Gryffindor")
+    else:
+        print("Eres de Slytheryn")
+else:
+    if nombre[0].upper() > "N":
+        print("Eres de Gryffindor")
+    else:
+        print("Eres de Slytheryn")
+
+
