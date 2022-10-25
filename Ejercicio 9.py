@@ -4,12 +4,9 @@
 # como el triángulo de más abajo.
 
 numero = int(input("Introduzca un numero impar\n"))
-num = numero % 2
 
-for fila in range(numero):
-    for a in range(fila):
-        if num != 0:
-            print("{}".format(a), end=" ")
-    if num != 0:
-        print("{}".format(fila), end=" ")
+for fila in range(1, numero+1, 2):
+    for a in range(fila, 0, -2):
+        print(a, end=" ")
+
     print(" ")
