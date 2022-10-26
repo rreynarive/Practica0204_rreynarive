@@ -2,4 +2,8 @@
 # contraseña en una variable, pregunte al usuario por la
 # contraseña hasta que introduzca la contraseña correcta.
 
-contraseña = input("Introduzca su contraseña\n")
+
+while True:
+    contraseña = input("Introduzca su contraseña\n")
+    if contraseña == "python":
+        break

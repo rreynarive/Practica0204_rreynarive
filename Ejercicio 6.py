@@ -6,5 +6,3 @@ edad = int(input("Introduzca su edad:\n"))
 for i in range(edad):
     print(i+1, end=" años\n")
 
-
-
